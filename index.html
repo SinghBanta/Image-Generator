@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Image Generator</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="/manifest.json">
+    
   </head>
   <body>
     <div class="container">
@@ -14,21 +16,32 @@
       <div class="input">
         <label for="input">Create an image from Text prompt</label>
         <input type="text" id="input" placeholder="Enter a text prompt" />
-        <button id="btn">Generate Image <img src="images/gen.svg" alt=""></button>
+        <button id="btn">
+          Generate Image <img src="images/gen.svg" alt="" />
+        </button>
       </div>
       <div class="output">
         <div class="image">
-            <img id="image" src="" alt="" />
-            <img id="svg" src="image.svg" alt="">
-            <img id="loading" src="images/1.load.webp" alt="">
+          <img id="image" src="" alt="" />
+          <img id="svg" src="image.svg" alt="" />
+          <img id="loading" src="images/1.load.webp" alt="" />
         </div>
-            
-            <div class="btns">
-                <button id="download">Download <img src="images/down.svg" alt=""></button>
-                <button id="reset">Reset <img src="images/reset.svg" alt=""></button>
-            </div>
+
+        <div class="btns">
+          <button id="download">
+            Download <img src="images/down.svg" alt="" />
+          </button>
+          <button id="reset">
+            Reset <img src="images/reset.svg" alt="" />
+          </button>
+          <div id="install-btn">
+            <button id="download">Install <img src="images/down.svg" alt="" ></button>
+          </div>
+
+          
         </div>
-      
+       
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
