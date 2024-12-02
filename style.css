@@ -93,6 +93,10 @@ h1{
     padding: 15px;
     box-sizing: border-box;
 }
+
+#install-btn{
+    display:none;
+}
 #btn{
     width: 200px;
     height: 50px;
@@ -109,6 +113,7 @@ h1{
     justify-content: center;
     gap: 5px;
     cursor: pointer;
+    
 
 }
 #btn:hover{
@@ -278,23 +283,26 @@ h1{
     
 }
 #download {
-    width: 110px;
+    width: 95px;
     height: 35px;
-    font-size: 12px;
-    margin-left:28px;
+    font-size: 10px;
+   
     
 }
 #reset {
-    width: 110px;
+    width: 95px;
     height: 35px;
-    font-size: 12px;
+    font-size: 10px;
 }
 #image {
     width: 85%;
   }
 
   #btn1{
-    display:none;
-   
+    width: 95px;
+    height: 35px;
+    font-size: 10px;
   }
+
+
 }
