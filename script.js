@@ -9,7 +9,7 @@ const downloadBtn = document.getElementById("download");
 
 async function query(data) {
   const response = await fetch(
-    "a15f37f641c5dda1413214a3dee4728e",
+    "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4",
 
     {
       headers: {
