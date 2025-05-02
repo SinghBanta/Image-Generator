@@ -9,7 +9,7 @@ const downloadBtn = document.getElementById("download");
 
 async function query(data) {
   const response = await fetch(
-    "YjUyOGVkYzA1NWE0NmI3ZDAzNjdhNDViNTg3NjhhYTg6NmM4ZDg3Y2Q5NWNkOTEyNzkwZDU0OTA3Mjg5ZjBjNWI=",
+    "a15f37f641c5dda1413214a3dee4728e",
 
     {
       headers: {
